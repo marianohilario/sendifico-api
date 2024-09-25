@@ -16,9 +16,9 @@ Sendifico API es una aplicación que permite obtener información sobre Pokemon 
 
 ## Endpoints
 
-- **GET `/api/pokemon`**: Devuelve una lista de los primeros 100 Pokémon.
-- **GET `/api/pokemon/:id`**: Devuelve información sobre un Pokémon específico, incluyendo su nombre y tipos.
-- **GET `/api/pokemonAndTypes/:id`**: Devuelve información sobre un Pokémon específico, incluyendo su nombre, tipos y traducciones en español y japonés.
+- **GET `/api/pokemon`**: Devuelve una lista de los primeros 100 Pokemon.
+- **GET `/api/pokemon/:id`**: Devuelve información sobre un Pokemon específico, incluyendo su nombre y tipos.
+- **GET `/api/pokemonAndTypes/:id`**: Devuelve información sobre un Pokemon específico, incluyendo su nombre, tipos y traducciones en español y japonés.
 
 ## Instrucciones para Ejecutar la API
 
@@ -59,28 +59,28 @@ La API estará disponible en **http://localhost:3000**
 
 Devuelve un saludo de bienvenida.
 
-### Obtener todos los Pokémon
+### Obtener todos los Pokemon
 
 **GET /api/pokemon**
 
-Devuelve una lista de los primeros 100 Pokémon.
+Devuelve una lista de los primeros 100 Pokemon.
 
-### Obtener un Pokémon por ID
+### Obtener un Pokemon por ID
 
 **GET /api/pokemon/:id**
 
-Devuelve la información del Pokémon correspondiente al ID proporcionado. Si el Pokémon no se encuentra, se lanzará un error 400 (Bad Request).
+Devuelve la información del Pokemon correspondiente al ID proporcionado. Si el Pokemon no se encuentra, se lanzará un error 400 (Bad Request).
 
-### Obtener un Pokémon y sus tipos por ID
+### Obtener un Pokemon y sus tipos por ID
 
 **GET /api/pokemonAndTypes/:id**
 
-Devuelve la información del Pokémon y detalles sobre sus tipos. Si el Pokémon no se encuentra, se lanzará un error 400 (Bad Request).
+Devuelve la información del Pokemon y detalles sobre sus tipos. Si el Pokemon no se encuentra, se lanzará un error 400 (Bad Request).
 
 ## Manejo de Errores
 
-**400 Bad Request:** Cuando se intenta acceder a un Pokémon que no existe.
+**400 Bad Request:** Cuando se intenta acceder a un Pokemon que no existe.
 
-**503 Service Unavailable:** Cuando la API de Pokémon externa no está disponible.
+**503 Service Unavailable:** Cuando la API de Pokemon externa no está disponible.
 
 Proyecto Realizado por [Mariano Hilario](https://www.linkedin.com/in/marianohilario/)
